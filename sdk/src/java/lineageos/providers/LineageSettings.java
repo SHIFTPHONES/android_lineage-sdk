@@ -45,8 +45,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-import lineageos.trust.TrustInterface;
-
 /**
  * LineageSettings contains Lineage specific preferences in System, Secure, and Global.
  */
@@ -2966,19 +2964,6 @@ public final class LineageSettings {
         public static final Validator NETWORK_TRAFFIC_SHOW_UNITS_VALIDATOR = sBooleanValidator;
 
         /**
-         * Trust warnings status
-         *
-         * Stores flags for each feature
-         *
-         * @see {@link lineageos.trust.TrustInterface.TRUST_WARN_MAX_VALUE}
-         */
-        public static final String TRUST_WARNINGS = "trust_warnings";
-
-        /** @hide */
-        public static final Validator TRUST_WARNINGS_VALIDATOR =
-                new InclusiveIntegerRangeValidator(0, TrustInterface.TRUST_WARN_MAX_VALUE);
-
-        /**
          * Whether volume panel should appear on the left (or right).
          * 0 = false (on the right)
          * 1 = true (on the left)
@@ -3054,7 +3039,6 @@ public final class LineageSettings {
             VALIDATORS.put(NETWORK_TRAFFIC_UNITS, NETWORK_TRAFFIC_UNITS_VALIDATOR);
             VALIDATORS.put(NETWORK_TRAFFIC_SHOW_UNITS, NETWORK_TRAFFIC_SHOW_UNITS_VALIDATOR);
             VALIDATORS.put(TETHERING_ALLOW_VPN_UPSTREAMS, TETHERING_ALLOW_VPN_UPSTREAMS_VALIDATOR);
-            VALIDATORS.put(TRUST_WARNINGS, TRUST_WARNINGS_VALIDATOR);
             VALIDATORS.put(VOLUME_PANEL_ON_LEFT, VOLUME_PANEL_ON_LEFT_VALIDATOR);
         }
     }

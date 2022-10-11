@@ -141,8 +141,6 @@
 
     <!-- Trust interface -->
     <java-symbol type="bool" name="config_trustLegacyEncryption" />
-    <java-symbol type="drawable" name="ic_trust" />
-    <java-symbol type="drawable" name="ic_trust_notification_manage" />
     <java-symbol type="drawable" name="ic_warning" />
     <java-symbol type="string" name="trust_feature_name" />
     <java-symbol type="string" name="trust_notification_channel" />

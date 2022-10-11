@@ -807,29 +807,6 @@ package lineageos.providers {
 
 }
 
-package lineageos.trust {
-
-  public class TrustInterface {
-    method public static lineageos.trust.TrustInterface getInstance(android.content.Context);
-    method public int getLevelForFeature(int);
-    method public boolean postNotificationForFeature(int);
-    method public boolean removeNotificationForFeature(int);
-    field public static final int ERROR_UNDEFINED = -1; // 0xffffffff
-    field public static final int TRUST_FEATURE_ENCRYPTION = 4; // 0x4
-    field public static final int TRUST_FEATURE_KEYS = 5; // 0x5
-    field public static final int TRUST_FEATURE_LEVEL_BAD = 2; // 0x2
-    field public static final int TRUST_FEATURE_LEVEL_GOOD = 0; // 0x0
-    field public static final int TRUST_FEATURE_LEVEL_POOR = 1; // 0x1
-    field public static final int TRUST_FEATURE_PLATFORM_SECURITY_PATCH = 2; // 0x2
-    field public static final int TRUST_FEATURE_SELINUX = 0; // 0x0
-    field public static final int TRUST_FEATURE_VENDOR_SECURITY_PATCH = 3; // 0x3
-    field public static final java.lang.String TRUST_INTERFACE_PERMISSION = "lineageos.permission.TRUST_INTERFACE";
-    field public static final int TRUST_WARN_PUBLIC_KEY = 4; // 0x4
-    field public static final int TRUST_WARN_SELINUX = 1; // 0x1
-  }
-
-}
-
 package lineageos.util {
 
   public class ColorUtils {
