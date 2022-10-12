@@ -175,8 +175,6 @@ java_library {
     srcs: [
         lineage_sdk_src + "/app/LineageContextConstants.java",
         lineage_sdk_src + "/providers/LineageSettings.java",
-        lineage_sdk_src + "/trust/ITrustInterface.aidl",
-        lineage_sdk_src + "/trust/TrustInterface.java",
 
         // For the generated R.java and Manifest.java
         ":org.lineageos.platform-res{.aapt.srcjar}",
