@@ -53,7 +53,7 @@ public class PartsList {
 
     public static final String EXTRA_PART = ":lineage:part";
 
-    public static final String LINEAGEPARTS_PACKAGE = "org.lineageos.lineageparts";
+    public static final String LINEAGEPARTS_PACKAGE = "eco.shift.shiftparts";
 
     public static final ComponentName LINEAGEPARTS_ACTIVITY = new ComponentName(
             LINEAGEPARTS_PACKAGE, LINEAGEPARTS_PACKAGE + ".PartsActivity");
