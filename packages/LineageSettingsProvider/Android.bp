@@ -13,11 +13,16 @@ android_app {
 
     certificate: "platform",
     privileged: true,
-    privapp_allowlist: "org.lineageos.lineagesettings.xml",
+    privapp_allowlist: "eco.shift.settingsstorage.xml",
     platform_apis: true,
     system_ext_specific: true,
 
     static_libs: [
         "org.lineageos.platform.internal",
+    ],
+
+    aaptflags: [
+        "--rename-manifest-package",
+        "eco.shift.settingsstorage",
     ],
 }
