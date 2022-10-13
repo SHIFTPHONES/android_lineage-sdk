@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="org.lineageos.lineagesettings"
+          package="eco.shift.shiftsettings"
           coreApp="true"
           android:sharedUserId="android.uid.system">
     <!-- It is necessary to be a system app in order to update table versions in SystemProperties for
