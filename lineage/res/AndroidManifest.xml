@@ -67,7 +67,7 @@
     <permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY"
                 android:label="@string/permlab_manageLiveDisplay"
                 android:description="@string/permdesc_manageLiveDisplay"
-                android:icon="@drawable/ic_launcher_lineageos"
+                android:icon="@drawable/ic_launcher_shiftos"
                 android:protectionLevel="normal" />
 
     <application android:process="system"
