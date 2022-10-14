@@ -17,6 +17,7 @@
 -->
 <resources>
     <java-symbol type="drawable" name="ic_launcher_lineageos" />
+    <java-symbol type="drawable" name="ic_launcher_shiftos" />
 
     <!-- Profiles -->
     <java-symbol type="xml" name="profile_default" />
