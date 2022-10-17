@@ -15,9 +15,11 @@
 //
 
 android_test {
-    name: "LineageSettingsProviderTests",
+    name: "SHIFT-SettingsProviderTests",
 
-    instrumentation_for: "LineageSettingsProvider",
+    overrides: ["LineageSettingsProviderTests"],
+
+    instrumentation_for: "SHIFT-SettingsProvider",
 
     srcs: ["**/*.java"],
 
