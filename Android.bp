@@ -92,12 +92,12 @@ java_library {
     libs: [
         "framework",
         "services",
+        "org.lineageos.services",
     ],
 
     srcs: [
         lineage_sdk_src + "/**/*.java",
         lineage_sdk_internal_src + "/**/*.java",
-        library_src + "/**/*.java",
         lineage_sdk_src + "/**/I*.aidl",
         lineage_sdk_internal_src + "/**/I*.aidl",
 
@@ -109,6 +109,22 @@ java_library {
     aidl: {
         local_include_dirs: ["sdk/src/java"],
     },
+}
+
+
+java_library {
+    name: "org.lineageos.services",
+    installable: true,
+    sdk_version: "core_platform",
+
+    libs: [
+        "framework",
+        "services",
+    ],
+
+    srcs: [
+        library_src + "/**/*.java",
+    ],
 }
 
 // Full target for use by platform apps
