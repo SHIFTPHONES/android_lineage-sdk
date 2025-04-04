@@ -16,14 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Label for the LineageOS system components when they are shown to the user. -->
     <string name="shiftos_system_label">ShiftOS System</string>
-
-    <!-- Labels for the WRITE_SETTINGS permission -->
-    <string name="permlab_writeSettings_shift">modify ShiftOS system settings</string>
-    <string name="permdesc_writeSettings_shift">Allows an app to modify ShiftOS system settings.</string>
-
-    <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-    <string name="permlab_writeSecureSettings_shift">modify ShiftOS secure system settings</string>
-    <string name="permdesc_writeSecureSettings_shift">Allows an app to modify ShiftOS secure system settings. Not for use by normal apps.</string>
+    <string name="permlab_writeSettings">ShiftOS-Systemeinstellungen ändern</string>
+    <string name="permdesc_writeSettings">Ermöglicht der App, ShiftOS-Systemeinstellungen zu ändern.</string>
+    <string name="permlab_writeSecureSettings">ShiftOS-Sicherheitssystemeinstellungen ändern</string>
+    <string name="permdesc_writeSecureSettings">Ermöglicht der App, ShiftOS-Sicherheitssystemeinstellungen zu ändern. Nicht für die Nutzung durch normale Apps bestimmt.</string>
 </resources>
